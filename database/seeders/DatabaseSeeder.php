@@ -10,6 +10,7 @@ use Database\Seeders\OrderSeeder;
 use Database\Seeders\CategorySeeder;
 use Database\Seeders\ProductSeeder;
 use Database\Seeders\OrderItemSeeder;
+use Database\Seeders\UserSeeder;
 
 
 class DatabaseSeeder extends Seeder
@@ -24,5 +25,6 @@ class DatabaseSeeder extends Seeder
         $this->call(CategorySeeder::class);
         $this->call(ProductSeeder::class);
         $this->call(OrderItemSeeder::class);
+        $this->call(UserSeeder::class);
     }
 }
