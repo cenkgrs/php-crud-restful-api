@@ -170,7 +170,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "Bearer 1|qTkdasJlNyWMTns6SFhKpNBStEQMvlk7hlc9Hjgge93e7673",
+							"value": "Bearer 1|tQTbyAKTB9aLbxWHdAgpsxqa8xuYNJ2Txa2VtL4g30df29bc",
 							"type": "string"
 						}
 					]
@@ -221,7 +221,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"name\": \"Test\",\n    \"price\": 100,\n    \"count\": 1,\n    \"category_id\": null,\n    \"discount_type\": \"giveaway\",\n    \"discount_amount\": 100\n}",
+					"raw": "{\n\t\"name\": \"Test\",\n    //\"price\": 100,\n    \"count\": 1,\n    \"category_id\": 1,\n    \"discount_type\": \"giveaway\",\n    \"discount_amount\": 100\n}",
 					"options": {
 						"raw": {
 							"language": "json"

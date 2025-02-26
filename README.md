@@ -4,6 +4,8 @@ Installation with Docker
 
 - cd php-crud-restful-api
 
+- cp .env.example .env
+
 - docker compose up -d db
 
 - docker compose build
@@ -18,7 +20,7 @@ Installation with Docker
 
   Then import postman collection to send requests to api
 
-  Before sending other request first login request with seeded user data
+  Before sending other requests first make login request with seeded user data
   which will be on the postman login request params
 
   Then set Token -> Bearer token, token will be returned as response from login request
