@@ -14,4 +14,8 @@ Route::group(['middleware' => 'auth:sanctum'], function() {
     Route::post('create-discount-rule', [OrderController::class, 'createDiscountRule']);
 });
 
+Route::get('auth/login', ['as' => 'login', function() {
+    return response()->json(['status' => false, 'message' => 'Lütfen önce login olup token alınız']);
+}]);
+
 Route::post('auth/login', [LoginController::class, 'index']);

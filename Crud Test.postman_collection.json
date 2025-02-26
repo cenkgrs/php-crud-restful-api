@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "b6f61ad4-1605-4456-891a-6f69414b8c58",
+		"_postman_id": "8c395014-9ada-497d-9f44-c093cabefc8a",
 		"name": "Crud Test",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "8237862"
@@ -14,7 +14,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "Bearer 1|wNWaW53kc3mN6iaEdU8EvpBxmmwBDrLFr6co9VTl04dbb3b4",
+							"value": "Bearer 1|qTkdasJlNyWMTns6SFhKpNBStEQMvlk7hlc9Hjgge93e7673",
 							"type": "string"
 						}
 					]
@@ -55,8 +55,7 @@
 						{
 							"key": "password",
 							"value": "123",
-							"type": "text",
-							"disabled": true
+							"type": "text"
 						}
 					]
 				},
@@ -171,7 +170,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "Bearer 1|wNWaW53kc3mN6iaEdU8EvpBxmmwBDrLFr6co9VTl04dbb3b4",
+							"value": "Bearer 1|qTkdasJlNyWMTns6SFhKpNBStEQMvlk7hlc9Hjgge93e7673",
 							"type": "string"
 						}
 					]
@@ -180,7 +179,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"id\": 9\n}",
+					"raw": "{\n\t\"id\": 1\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -213,7 +212,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "Bearer 1|wNWaW53kc3mN6iaEdU8EvpBxmmwBDrLFr6co9VTl04dbb3b4",
+							"value": "Bearer 1|qTkdasJlNyWMTns6SFhKpNBStEQMvlk7hlc9Hjgge93e7673",
 							"type": "string"
 						}
 					]
@@ -222,7 +221,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"name\": \"Test\",\n    \"count\": 1,\n    \"discount_type\": \"giveaway\",\n    \"discount_amount\": 100\n}",
+					"raw": "{\n\t\"name\": \"Test\",\n    \"price\": 100,\n    \"count\": 1,\n    \"category_id\": null,\n    \"discount_type\": \"giveaway\",\n    \"discount_amount\": 100\n}",
 					"options": {
 						"raw": {
 							"language": "json"
