@@ -17,18 +17,21 @@ class OrderItemSeeder extends Seeder
         OrderItem::insert([
             'order_id' => 1,
             'product_id' => 102,
+            'quantity' => 10,
             'created_at' => new DateTime
         ]);
 
         OrderItem::insert([
             'order_id' => 2,
             'product_id' => 101,
+            'quantity' => 2,
             'created_at' => new DateTime
         ]);
 
         OrderItem::insert([
             'order_id' => 2,
             'product_id' => 100,
+            'quantity' => 1,
             'created_at' => new DateTime
         ]);
 
@@ -36,12 +39,14 @@ class OrderItemSeeder extends Seeder
         OrderItem::insert([
             'order_id' => 3,
             'product_id' => 102,
+            'quantity' => 6,
             'created_at' => new DateTime
         ]);
 
         OrderItem::insert([
             'order_id' => 3,
             'product_id' => 100,
+            'quantity' => 10,
             'created_at' => new DateTime
         ]);
     }
